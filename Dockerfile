@@ -1,4 +1,4 @@
-FROM linuxserver/ungoogled-chromium:155.0.8059.39-1-ls192
+FROM linuxserver/ungoogled-chromium:155.0.8059.84-1-ls195
 
 # Upstream starts Xvfb with a 15360x8640 screen, which pins ~600 MB for the
 # framebuffer alone and OOM-kills the desktop on Railway's 512 MB Trial plan.
